@@ -20,3 +20,4 @@ const dictionary = {
   dog: 'best friend'
 };
 object.keys(dictionary);
+object.values(dictionary);
