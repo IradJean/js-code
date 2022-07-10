@@ -2,7 +2,7 @@
 /*
 declaring objects with new keyword
 */
-const myNewObj = new object();
+const myNewObj = new Object();
 
 const myVarAge = myNewObj.age = 22;
 const myVarDept = myNewObj.dept = 'Computer Science';
@@ -19,5 +19,5 @@ const dictionary = {
   cat: 'cute furry animal',
   dog: 'best friend'
 };
-object.keys(dictionary);
-object.values(dictionary);
+Object.keys(dictionary);
+Object.values(dictionary);
