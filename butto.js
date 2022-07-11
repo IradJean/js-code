@@ -10,3 +10,11 @@ button.addEventListener('click', (function(){
 	};
 
 })());
+// my additions
+const btn = document.getElementsByTagName('button');
+function alertName(){
+	alert("Hello!!");
+}
+alertName();
+
+btn.addEventListener('onmouseover',alertName);
