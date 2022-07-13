@@ -40,3 +40,22 @@ const MyProfile = new trialCamelCase();
 console.log(MyProfile);
 
 //trialCamelCase{name: 'Jean De Dieu', age: 43}
+
+//Seeing the Object's Constructor (instanceof)
+typeof MyProfile;
+// returns "Object"
+MyProfile instanceof trialCamelCase;
+// returns "true"
+// let's hhave an illustrations on the objects:
+const dog = {
+  bark: function(){
+    console.log("Woof!");
+  },
+  barkTwice: function(){
+    this.bark();
+   this.bark();
+  }
+
+};
+dog.bark();
+dog.barkTwice();
